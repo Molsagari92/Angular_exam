@@ -1,0 +1,6 @@
+<p *ngFor="let ujsag of newspapers; let i = index">
+  {{ ujsag.name }}
+</p>
+<p *ngFor="let book of books; let i = index">
+  <app-book [model]="book"></app-book>
+</p>
